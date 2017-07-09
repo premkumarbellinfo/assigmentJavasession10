@@ -75,8 +75,10 @@ public class Destination {
 		if(!found){
 			System.out.println("Ohh...Sorry, We couldn't find your destination. Please check beck.");
 		}
+		scan.close();
 	}
-
+	
+	
 }
 
 class Destinations{
